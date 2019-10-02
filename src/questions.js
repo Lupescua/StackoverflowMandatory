@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import Link from '@react/router';
-import { Router } from "@reach/router";
+import { Link } from '@reach/router';
 
 class Questions extends Component{
 
@@ -13,7 +12,7 @@ render(){
     <React.Fragment>
     <ol>
       {this.props.data.map( q => <li>
-        <Link ></Link>
+        <Link to="/"></Link>
       </li>)}
     </ol>
     </React.Fragment>
