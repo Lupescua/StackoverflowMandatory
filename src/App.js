@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import { Router } from "@reach/router"; 
 import Questions from './questions';
 import Question from './question';
 
@@ -8,7 +9,12 @@ class App extends Component {
   constructor(props ) {
     super(props);
     this.state ={
-      data = [...]
+      data : [
+            // descriptions could be better...
+            { id: 1, title: "Pizza", description: "How to make pizza..."},
+            { id: 2, title: "Soup", description: "How to make soup..."},
+            { id: 3, title: "Cake", description: "How to make cake..."},
+          ]
     }
 }
 
